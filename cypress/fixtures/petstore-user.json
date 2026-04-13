@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "username": "cypress_petstore_user",
+  "firstName": "Cypress",
+  "lastName": "Tester",
+  "email": "cypress.petstore@example.com",
+  "password": "Senha123!",
+  "phone": "11999999999",
+  "userStatus": 1
+}

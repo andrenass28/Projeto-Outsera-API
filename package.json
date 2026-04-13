@@ -1,0 +1,24 @@
+{
+  "name": "projeto-outsera-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:api": "cypress run --spec cypress/e2e/api/**/*.cy.js",
+    "cy:run:petstore-create-user": "cypress run --spec cypress/e2e/api/petstore-create-user.cy.js --env API_URL=https://petstore.swagger.io/v2",
+    "cy:run:petstore-login": "cypress run --spec cypress/e2e/api/petstore-login.cy.js --env API_URL=https://petstore.swagger.io/v2",
+    "cy:run:petstore-add-pet": "cypress run --spec cypress/e2e/api/petstore-add-pet.cy.js --env API_URL=https://petstore.swagger.io/v2",
+    "cy:run:petstore-update-pet": "cypress run --spec cypress/e2e/api/petstore-update-pet.cy.js --env API_URL=https://petstore.swagger.io/v2",
+    "cy:run:petstore-get-pet": "cypress run --spec cypress/e2e/api/petstore-get-pet.cy.js --env API_URL=https://petstore.swagger.io/v2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.13.1"
+  }
+}
