@@ -5,10 +5,10 @@ module.exports = defineConfig({
     specPattern: 'cypress/e2e/**/*.cy.js',
     supportFile: 'cypress/support/e2e.js',
     env: {
-      API_URL: 'http://localhost:3000'
+      API_URL: 'https://petstore.swagger.io/v2'
     },
     setupNodeEvents(on, config) {
-      config.baseUrl = config.env.API_URL || 'http://localhost:3000';
+      config.baseUrl = config.env.API_URL || 'https://petstore.swagger.io/v2';
       return config;
     }
   },
